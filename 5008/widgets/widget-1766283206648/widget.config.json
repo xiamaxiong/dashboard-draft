@@ -1,0 +1,24 @@
+{
+  "id": "widget-1766283206648",
+  "type": "clock",
+  "title": "Clock",
+  "layout": {
+    "x": 40,
+    "y": 0,
+    "w": 8,
+    "h": 2,
+    "minW": 2,
+    "minH": 1,
+    "zIndex": 0
+  },
+  "content": {
+    "showDate": false
+  },
+  "dataSource": {
+    "type": "mock",
+    "refreshMode": "interval",
+    "refreshIntervalMs": 5000
+  },
+  "isCodeDriven": false,
+  "libraryCode": "echarts"
+}

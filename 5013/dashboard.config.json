@@ -1,0 +1,72 @@
+{
+  "$schema": "./draft-schema.json",
+  "version": "1.0",
+  "dashboard": {
+    "id": "5013",
+    "name": "imation test",
+    "description": "",
+    "category": "Production",
+    "mode": "canvas",
+    "canvas": {
+      "pageSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "gridSettings": {
+        "cols": 48,
+        "rowHeight": 32,
+        "margin": [
+          0,
+          0
+        ],
+        "padding": [
+          12,
+          12
+        ]
+      }
+    }
+  },
+  "widgets": [
+    {
+      "id": "widget-1767927155689",
+      "type": "echarts",
+      "title": "Large scale area chart",
+      "layout": {
+        "x": 6,
+        "y": 4,
+        "w": 42,
+        "h": 17,
+        "minW": 1,
+        "minH": 1,
+        "zIndex": 0
+      },
+      "templateId": "4",
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1768546375844",
+      "type": "chart",
+      "title": "Text Label",
+      "layout": {
+        "x": 21,
+        "y": 1,
+        "w": 6,
+        "h": 2,
+        "minW": 1,
+        "minH": 1,
+        "zIndex": 0
+      },
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-16T05:59:31.051Z",
+    "savedAt": "2026-01-16T06:53:04.4138092Z",
+    "dbVersion": 7,
+    "isStale": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "widget-1765701741717",
+  "type": "text",
+  "title": "Text Label",
+  "layout": {
+    "x": 21,
+    "y": 0,
+    "w": 6,
+    "h": 2,
+    "minW": 2,
+    "minH": 1,
+    "zIndex": 0
+  },
+  "content": {
+    "color": "#ffffff",
+    "fontSize": 28,
+    "fontWeight": "500"
+  },
+  "dataSource": {
+    "type": "mock",
+    "refreshMode": "interval",
+    "refreshIntervalMs": 5000
+  },
+  "configFileName": "echarts-options.json",
+  "isCodeDriven": false,
+  "libraryCode": "echarts"
+}

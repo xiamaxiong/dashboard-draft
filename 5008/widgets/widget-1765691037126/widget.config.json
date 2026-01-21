@@ -1,0 +1,32 @@
+{
+  "id": "widget-1765691037126",
+  "type": "chart",
+  "title": "Two Value-Axes in Polar",
+  "layout": {
+    "x": 39,
+    "y": 4,
+    "w": 9,
+    "h": 7,
+    "minW": 2,
+    "minH": 1,
+    "zIndex": 0
+  },
+  "templateId": "147",
+  "dataSource": {
+    "type": "mock",
+    "config": {
+      "dataType": "timeseries",
+      "pointCount": 50,
+      "valueRange": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "refreshMode": "interval",
+    "refreshIntervalMs": 5000
+  },
+  "configFileName": "echarts-options.json",
+  "dataFileName": "echarts-data.json",
+  "isCodeDriven": false,
+  "libraryCode": "echarts"
+}

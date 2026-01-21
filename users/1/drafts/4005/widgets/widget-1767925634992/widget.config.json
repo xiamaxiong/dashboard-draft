@@ -1,0 +1,32 @@
+{
+  "id": "widget-1767925634992",
+  "type": "chart",
+  "title": "Rainfall",
+  "layout": {
+    "x": 17,
+    "y": 8,
+    "w": 29,
+    "h": 16,
+    "minW": 1,
+    "minH": 1,
+    "zIndex": 0
+  },
+  "templateId": "3",
+  "dataSource": {
+    "type": "mock",
+    "config": {
+      "dataType": "timeseries",
+      "pointCount": 50,
+      "valueRange": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "refreshMode": "interval",
+    "refreshIntervalMs": 5000
+  },
+  "configFileName": "echarts-options.json",
+  "dataFileName": "echarts-data.json",
+  "isCodeDriven": false,
+  "libraryCode": "echarts"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "widget-1768826103236",
+  "type": "chart",
+  "title": "Title",
+  "layout": {
+    "x": 7,
+    "y": 0,
+    "w": 4,
+    "h": 1,
+    "minW": 1,
+    "minH": 1,
+    "zIndex": 0
+  },
+  "content": {
+    "text": "Title",
+    "fontSize": 32,
+    "fontWeight": "bold",
+    "textAlign": "center",
+    "verticalAlign": "middle"
+  },
+  "configFileName": "echarts-options.json",
+  "dataFileName": "echarts-data.json",
+  "isCodeDriven": false
+}

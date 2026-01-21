@@ -1,0 +1,124 @@
+{
+  "$schema": "./draft-schema.json",
+  "version": "1.0",
+  "dashboard": {
+    "id": "5014",
+    "name": "New-01",
+    "description": "",
+    "category": "Production",
+    "mode": "canvas",
+    "canvas": {
+      "pageSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "gridSettings": {
+        "cols": 12,
+        "rowHeight": 100,
+        "margin": [
+          0,
+          0
+        ],
+        "padding": [
+          12,
+          12
+        ]
+      }
+    }
+  },
+  "widgets": [
+    {
+      "id": "widget-1768655794638",
+      "type": "chart",
+      "title": "Business Text",
+      "layout": {
+        "x": 4,
+        "y": 1,
+        "w": 3,
+        "h": 2,
+        "minW": 1,
+        "minH": 1,
+        "zIndex": 0
+      },
+      "configFileName": "",
+      "dataFileName": "",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1768788199461",
+      "type": "chart",
+      "title": "Supervisor View",
+      "layout": {
+        "x": 1,
+        "y": 3,
+        "w": 4,
+        "h": 2,
+        "minW": 1,
+        "minH": 1,
+        "zIndex": 0
+      },
+      "configFileName": "",
+      "dataFileName": "",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1768826103236",
+      "type": "chart",
+      "title": "Title",
+      "layout": {
+        "x": 7,
+        "y": 0,
+        "w": 4,
+        "h": 1,
+        "minW": 1,
+        "minH": 1,
+        "zIndex": 0
+      },
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1768826121703",
+      "type": "chart",
+      "title": "Text Label",
+      "layout": {
+        "x": 7,
+        "y": 1,
+        "w": 2,
+        "h": 1,
+        "minW": 1,
+        "minH": 1,
+        "zIndex": 0
+      },
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1768918643456",
+      "type": "chart",
+      "title": "Rainfall",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3,
+        "minW": 1,
+        "minH": 1,
+        "zIndex": 0
+      },
+      "templateId": "3",
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    }
+  ],
+  "templates": [],
+  "metadata": {
+    "createdAt": "2026-01-21T04:25:07.139Z",
+    "savedAt": "2026-01-21T12:33:25.5152049Z",
+    "dbVersion": 14,
+    "isStale": false
+  }
+}

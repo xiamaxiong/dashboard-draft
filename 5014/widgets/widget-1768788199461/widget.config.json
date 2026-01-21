@@ -1,0 +1,21 @@
+{
+  "id": "widget-1768788199461",
+  "type": "chart",
+  "title": "Supervisor View",
+  "layout": {
+    "x": 1,
+    "y": 3,
+    "w": 4,
+    "h": 2,
+    "minW": 1,
+    "minH": 1,
+    "zIndex": 0
+  },
+  "content": {
+    "itemVersionGuid": "9438fae5-ce05-4a7f-a90a-4f4f3356b1ff"
+  },
+  "configFileName": "",
+  "dataFileName": "",
+  "isCodeDriven": false,
+  "libraryCode": "supervisorView"
+}

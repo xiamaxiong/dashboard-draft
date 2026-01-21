@@ -1,0 +1,54 @@
+{
+  "$schema": "./draft-schema.json",
+  "version": "1.0",
+  "dashboard": {
+    "id": "5017",
+    "name": "temp01",
+    "description": "",
+    "category": "Production",
+    "mode": "canvas",
+    "canvas": {
+      "pageSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "gridSettings": {
+        "cols": 12,
+        "rowHeight": 100,
+        "margin": [
+          0,
+          0
+        ],
+        "padding": [
+          12,
+          12
+        ]
+      }
+    }
+  },
+  "widgets": [
+    {
+      "id": "widget-1768818222342",
+      "type": "chart",
+      "title": "Title",
+      "layout": {
+        "x": 1,
+        "y": 0,
+        "w": 4,
+        "h": 1,
+        "minW": 1,
+        "minH": 1,
+        "zIndex": 0
+      },
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-19T05:14:53.314Z",
+    "savedAt": "2026-01-19T10:23:44.0236202Z",
+    "dbVersion": 1,
+    "isStale": false
+  }
+}
