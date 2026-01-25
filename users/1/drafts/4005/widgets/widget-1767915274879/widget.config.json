@@ -3,26 +3,17 @@
   "type": "chart",
   "title": "Rainfall",
   "layout": {
-    "x": 0,
-    "y": 0,
-    "w": 14,
-    "h": 10,
-    "minW": 2,
-    "minH": 1,
+    "x": 9,
+    "y": 6,
+    "w": 6,
+    "h": 4,
     "zIndex": 0
   },
+  "style": {},
   "templateId": "3",
   "dataSource": {
     "type": "mock",
-    "config": {
-      "dataType": "timeseries",
-      "pointCount": 50,
-      "valueRange": {
-        "min": 0,
-        "max": 100
-      }
-    },
-    "refreshMode": "interval",
+    "config": {},
     "refreshIntervalMs": 5000
   },
   "configFileName": "echarts-options.json",

@@ -1,0 +1,36 @@
+{
+  "$schema": "./draft-schema.json",
+  "version": "1.0",
+  "dashboard": {
+    "id": "5019",
+    "name": "[Template] Data List",
+    "description": "Template container for designing: Data List",
+    "category": "Custom",
+    "mode": "canvas",
+    "canvas": {
+      "pageSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "gridSettings": {
+        "cols": 12,
+        "rowHeight": 100,
+        "margin": [
+          0,
+          0
+        ],
+        "padding": [
+          12,
+          12
+        ]
+      }
+    }
+  },
+  "widgets": [],
+  "templates": [],
+  "metadata": {
+    "savedAt": "2026-01-22T12:51:27.2426433Z",
+    "dbVersion": 1,
+    "isStale": false
+  }
+}

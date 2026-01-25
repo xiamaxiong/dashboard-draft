@@ -1,0 +1,34 @@
+{
+  "title": {
+    "text": "Dynamic Data & Time Axis"
+  },
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": {
+      "animation": false
+    }
+  },
+  "xAxis": {
+    "type": "time",
+    "splitLine": {
+      "show": false
+    }
+  },
+  "yAxis": {
+    "type": "value",
+    "boundaryGap": [
+      0,
+      "100%"
+    ],
+    "splitLine": {
+      "show": false
+    }
+  },
+  "series": [
+    {
+      "name": "Fake Data",
+      "type": "line",
+      "showSymbol": false
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "series": [
+    {
+      "data": [
+        7,
+        2,
+        6,
+        6,
+        7,
+        6
+      ],
+      "index": 0,
+      "name": "Orange",
+      "type": "line"
+    },
+    {
+      "data": [
+        1,
+        9,
+        3,
+        8,
+        6,
+        3
+      ],
+      "index": 1,
+      "name": "Tomato",
+      "type": "line"
+    },
+    {
+      "data": [
+        3,
+        1,
+        4,
+        5,
+        3,
+        4
+      ],
+      "index": 2,
+      "name": "Apple",
+      "type": "line"
+    },
+    {
+      "data": [
+        6,
+        7,
+        1,
+        9,
+        1,
+        5
+      ],
+      "index": 3,
+      "name": "Sakana",
+      "type": "line"
+    },
+    {
+      "data": [
+        8,
+        4,
+        9,
+        2,
+        8,
+        7
+      ],
+      "index": 4,
+      "name": "Banana",
+      "type": "line"
+    },
+    {
+      "data": [
+        4,
+        5,
+        5,
+        7,
+        4,
+        8
+      ],
+      "index": 5,
+      "name": "Iwashi",
+      "type": "line"
+    },
+    {
+      "data": [
+        2,
+        3,
+        8,
+        1,
+        9,
+        1
+      ],
+      "index": 6,
+      "name": "Snappy Fish",
+      "type": "line"
+    },
+    {
+      "data": [
+        9,
+        6,
+        2,
+        4,
+        5,
+        2
+      ],
+      "index": 7,
+      "name": "Lemon",
+      "type": "line"
+    },
+    {
+      "data": [
+        5,
+        8,
+        7,
+        3,
+        2,
+        9
+      ],
+      "index": 8,
+      "name": "Pasta",
+      "type": "line"
+    }
+  ],
+  "xAxis": {
+    "data": [
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006"
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "$schema": "./draft-schema.json",
+  "version": "1.0",
+  "dashboard": {
+    "id": "3007",
+    "name": "C1",
+    "description": "",
+    "category": "Production",
+    "mode": "canvas",
+    "canvas": {
+      "pageSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "gridSettings": {
+        "cols": 96,
+        "rowHeight": 32,
+        "margin": [
+          0,
+          0
+        ],
+        "padding": [
+          12,
+          12
+        ]
+      },
+      "style": {
+        "backgroundColor": "#000000",
+        "gridColor": "rgba(255,255,255,0.06)"
+      }
+    }
+  },
+  "widgets": [
+    {
+      "id": "widget-1765620505300",
+      "type": "Chart",
+      "title": "Bump Chart (Ranking)",
+      "layout": {
+        "x": 26,
+        "y": 22,
+        "w": 24,
+        "h": 15,
+        "minW": 4,
+        "minH": 4,
+        "zIndex": 0
+      },
+      "templateId": "45",
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1765620510688",
+      "type": "Chart",
+      "title": "Rainfall vs Evaporation",
+      "layout": {
+        "x": 25,
+        "y": 37,
+        "w": 24,
+        "h": 16,
+        "minW": 4,
+        "minH": 4,
+        "zIndex": 0
+      },
+      "templateId": "128",
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1765620549525",
+      "type": "Chart",
+      "title": "Two Value-Axes in Polar",
+      "layout": {
+        "x": 75,
+        "y": 37,
+        "w": 20,
+        "h": 16,
+        "minW": 4,
+        "minH": 4,
+        "zIndex": 0
+      },
+      "templateId": "146",
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1765620700713",
+      "type": "Static",
+      "title": "test shape",
+      "layout": {
+        "x": 89,
+        "y": 0,
+        "w": 7,
+        "h": 7,
+        "minW": 2,
+        "minH": 1,
+        "zIndex": 0
+      },
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1765620729141",
+      "type": "Chart",
+      "title": "Pie with padAngle",
+      "layout": {
+        "x": 0,
+        "y": 37,
+        "w": 24,
+        "h": 16,
+        "minW": 4,
+        "minH": 4,
+        "zIndex": 0
+      },
+      "templateId": "202",
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1765620755364",
+      "type": "Chart",
+      "title": "Contour Plot",
+      "layout": {
+        "x": 50,
+        "y": 37,
+        "w": 24,
+        "h": 16,
+        "minW": 4,
+        "minH": 4,
+        "zIndex": 0
+      },
+      "configFileName": "echarts-options.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1765635223138",
+      "type": "Static",
+      "title": "Text Label",
+      "layout": {
+        "x": 28,
+        "y": 0,
+        "w": 24,
+        "h": 4,
+        "minW": 1,
+        "minH": 4,
+        "zIndex": 0
+      },
+      "configFileName": "echarts-options.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1765643408619",
+      "type": "Chart",
+      "title": "Distribution of Height and Weight",
+      "layout": {
+        "x": 55,
+        "y": 13,
+        "w": 24,
+        "h": 17,
+        "minW": 4,
+        "minH": 4,
+        "zIndex": 0
+      },
+      "templateId": "249",
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1765643469444",
+      "type": "Static",
+      "title": "Vue-Datav: Screen Title Decoration",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 1,
+        "minW": 12,
+        "minH": 1,
+        "zIndex": 0
+      },
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1765688051626",
+      "type": "Chart",
+      "title": "Axis Pointer Link and Touch",
+      "layout": {
+        "x": 0,
+        "y": 6,
+        "w": 24,
+        "h": 17,
+        "minW": 4,
+        "minH": 4,
+        "zIndex": 0
+      },
+      "templateId": "60",
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    }
+  ],
+  "templates": [],
+  "metadata": {
+    "savedAt": "2026-01-22T01:31:52.6438226Z",
+    "dbVersion": 5,
+    "isStale": false
+  }
+}

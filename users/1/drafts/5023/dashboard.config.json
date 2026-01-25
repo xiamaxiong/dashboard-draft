@@ -1,0 +1,87 @@
+{
+  "$schema": "./draft-schema.json",
+  "version": "1.0",
+  "dashboard": {
+    "id": "5023",
+    "name": "M6",
+    "description": "",
+    "category": "Production",
+    "mode": "monitor",
+    "canvas": {
+      "pageSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "gridSettings": {
+        "cols": 24,
+        "rowHeight": 30,
+        "margin": [
+          8,
+          8
+        ],
+        "padding": [
+          16,
+          16
+        ]
+      }
+    },
+    "monitor": {
+      "rows": [
+        {
+          "id": "row-1769333644667",
+          "title": "Row",
+          "sortOrder": 0,
+          "showTitle": true,
+          "gridPos": {
+            "x": 0,
+            "y": 0,
+            "w": 24,
+            "h": 1,
+            "zIndex": 0
+          }
+        }
+      ],
+      "rowGapPx": 16,
+      "panelGapPx": 12
+    }
+  },
+  "widgets": [
+    {
+      "id": "widget-1769333633748",
+      "type": "chart",
+      "title": "Rainfall",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 4,
+        "minW": 2,
+        "minH": 2,
+        "zIndex": 0
+      },
+      "templateId": "3",
+      "monitor": {
+        "rowId": "row-1769333644667",
+        "gridPos": {
+          "x": 0,
+          "y": 1,
+          "w": 13,
+          "h": 12,
+          "zIndex": 0
+        },
+        "order": 0,
+        "flex": 1
+      },
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    }
+  ],
+  "templates": [],
+  "metadata": {
+    "createdAt": "2026-01-25T09:34:26.195Z",
+    "savedAt": "2026-01-25T12:19:20.8869713Z",
+    "dbVersion": 1,
+    "isStale": false
+  }
+}

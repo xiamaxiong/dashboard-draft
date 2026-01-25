@@ -1,0 +1,32 @@
+{
+  "id": "widget-1765643408619",
+  "type": "Chart",
+  "title": "Distribution of Height and Weight",
+  "layout": {
+    "x": 55,
+    "y": 13,
+    "w": 24,
+    "h": 17,
+    "minW": 4,
+    "minH": 4,
+    "zIndex": 0
+  },
+  "templateId": "249",
+  "dataSource": {
+    "type": "mock",
+    "config": {
+      "dataType": "timeseries",
+      "pointCount": 50,
+      "valueRange": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "refreshMode": "interval",
+    "refreshIntervalMs": 5000
+  },
+  "configFileName": "echarts-options.json",
+  "dataFileName": "echarts-data.json",
+  "isCodeDriven": false,
+  "libraryCode": "echarts"
+}

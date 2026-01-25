@@ -1,0 +1,40 @@
+{
+  "id": "widget-1769322872167",
+  "type": "chart",
+  "title": "Stacked Area Chart",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "w": 4,
+    "h": 3,
+    "minW": 2,
+    "minH": 2,
+    "zIndex": 1
+  },
+  "templateId": "6",
+  "dataSource": {
+    "type": "mock",
+    "config": {
+      "dataType": "timeseries",
+      "pointCount": 50
+    },
+    "refreshMode": "interval",
+    "refreshIntervalMs": 5000
+  },
+  "monitor": {
+    "rowId": "row-1769306277133",
+    "gridPos": {
+      "x": 14,
+      "y": 14,
+      "w": 12,
+      "h": 10,
+      "zIndex": 0
+    },
+    "order": 0,
+    "flex": 1
+  },
+  "configFileName": "echarts-options.json",
+  "dataFileName": "echarts-data.json",
+  "isCodeDriven": false,
+  "libraryCode": "echarts"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "widget-1769322897744",
+  "type": "chart",
+  "title": "Dynamic Data \u002B Time Axis",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "w": 4,
+    "h": 3,
+    "minW": 2,
+    "minH": 2,
+    "zIndex": 1
+  },
+  "templateId": "86",
+  "dataSource": {
+    "type": "mock",
+    "config": {
+      "dataType": "timeseries",
+      "pointCount": 50
+    },
+    "refreshMode": "interval",
+    "refreshIntervalMs": 5000
+  },
+  "monitor": {
+    "rowId": "row-1769306277133",
+    "gridPos": {
+      "x": 27,
+      "y": 14,
+      "w": 10,
+      "h": 11,
+      "zIndex": 0
+    },
+    "order": 0,
+    "flex": 1
+  },
+  "configFileName": "echarts-options.json",
+  "dataFileName": "echarts-data.json",
+  "isCodeDriven": false,
+  "libraryCode": "echarts"
+}

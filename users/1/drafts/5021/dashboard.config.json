@@ -1,0 +1,36 @@
+{
+  "$schema": "./draft-schema.json",
+  "version": "1.0",
+  "dashboard": {
+    "id": "5021",
+    "name": "M03 (Copy)",
+    "description": "",
+    "category": "Production",
+    "mode": "canvas",
+    "canvas": {
+      "pageSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "gridSettings": {
+        "cols": 12,
+        "rowHeight": 100,
+        "margin": [
+          0,
+          0
+        ],
+        "padding": [
+          12,
+          12
+        ]
+      }
+    }
+  },
+  "widgets": [],
+  "templates": [],
+  "metadata": {
+    "savedAt": "2026-01-23T06:02:16.0168589Z",
+    "dbVersion": 1,
+    "isStale": false
+  }
+}

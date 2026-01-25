@@ -53,6 +53,9 @@
       "axisLine": {
         "onZero": false
       }
+    },
+    {
+      "type": "category"
     }
   ],
   "yAxis": [

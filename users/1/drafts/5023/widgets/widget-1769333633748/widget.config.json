@@ -1,0 +1,32 @@
+{
+  "id": "widget-1769333633748",
+  "type": "chart",
+  "title": "Rainfall",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "w": 6,
+    "h": 4,
+    "minW": 2,
+    "minH": 2,
+    "zIndex": 0
+  },
+  "style": {},
+  "templateId": "3",
+  "monitor": {
+    "rowId": "row-1769333644667",
+    "gridPos": {
+      "x": 0,
+      "y": 1,
+      "w": 13,
+      "h": 12,
+      "zIndex": 0
+    },
+    "order": 0,
+    "flex": 1
+  },
+  "configFileName": "echarts-options.json",
+  "dataFileName": "echarts-data.json",
+  "isCodeDriven": false,
+  "libraryCode": "echarts"
+}
