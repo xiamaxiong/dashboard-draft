@@ -1,0 +1,39 @@
+{
+  "id": "widget-1769596384892",
+  "type": "chart",
+  "title": "Rectangle",
+  "layout": {
+    "x": 1,
+    "y": 1,
+    "w": 6,
+    "h": 4,
+    "minW": 2,
+    "minH": 2,
+    "zIndex": 1
+  },
+  "templateId": "276",
+  "dataSource": {
+    "type": "mock",
+    "config": {
+      "dataType": "timeseries",
+      "pointCount": 50
+    },
+    "refreshMode": "interval",
+    "refreshIntervalMs": 5000
+  },
+  "monitor": {
+    "gridPos": {
+      "x": 1,
+      "y": 1,
+      "w": 6,
+      "h": 4,
+      "zIndex": 0
+    },
+    "order": 0,
+    "flex": 1
+  },
+  "configFileName": "shape-props.json",
+  "dataFileName": "",
+  "isCodeDriven": false,
+  "libraryCode": "shape"
+}
