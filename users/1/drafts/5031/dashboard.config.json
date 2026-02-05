@@ -78,8 +78,8 @@
       "refresh": 0,
       "options": [],
       "current": {
-        "value": 69,
-        "text": "69",
+        "value": 57,
+        "text": "57",
         "isAll": false
       },
       "multi": false,
@@ -88,7 +88,7 @@
   ],
   "metadata": {
     "createdAt": "2026-01-31T15:05:37.872Z",
-    "savedAt": "2026-02-05T15:40:46.6552479Z",
+    "savedAt": "2026-02-05T23:25:25.8045953Z",
     "dbVersion": 1,
     "isStale": false
   }
