@@ -1,0 +1,95 @@
+{
+  "$schema": "./draft-schema.json",
+  "version": "1.0",
+  "dashboard": {
+    "id": "5031",
+    "name": "C2",
+    "description": "",
+    "category": "Production",
+    "mode": "canvas",
+    "canvas": {
+      "pageSize": {
+        "width": 800,
+        "height": 600
+      },
+      "gridSettings": {
+        "cols": 48,
+        "rowHeight": 32,
+        "margin": [
+          0,
+          0
+        ],
+        "padding": [
+          12,
+          12
+        ]
+      }
+    }
+  },
+  "widgets": [
+    {
+      "id": "widget-1770268318406",
+      "type": "chart",
+      "title": "Stat (Basic)",
+      "layout": {
+        "x": 8,
+        "y": 2,
+        "w": 16,
+        "h": 8,
+        "minW": 2,
+        "minH": 2,
+        "zIndex": 1
+      },
+      "templateId": "1330",
+      "configFileName": "stat-options.json",
+      "dataFileName": "stat-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1770288948591",
+      "type": "chart",
+      "title": "Slider",
+      "layout": {
+        "x": 4,
+        "y": 16,
+        "w": 33,
+        "h": 8,
+        "minW": 2,
+        "minH": 1,
+        "zIndex": 1
+      },
+      "configFileName": "",
+      "dataFileName": "",
+      "isCodeDriven": false
+    }
+  ],
+  "templates": [],
+  "variables": [
+    {
+      "id": "var-1770293128122",
+      "name": "slider_value",
+      "type": "textbox",
+      "label": "",
+      "description": "",
+      "hide": 0,
+      "skipUrlSync": false,
+      "index": 0,
+      "sort": 0,
+      "refresh": 0,
+      "options": [],
+      "current": {
+        "value": 69,
+        "text": "69",
+        "isAll": false
+      },
+      "multi": false,
+      "includeAll": false
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-31T15:05:37.872Z",
+    "savedAt": "2026-02-05T15:40:46.6552479Z",
+    "dbVersion": 1,
+    "isStale": false
+  }
+}

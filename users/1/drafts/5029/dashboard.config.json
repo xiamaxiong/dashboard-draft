@@ -1,0 +1,427 @@
+{
+  "$schema": "./draft-schema.json",
+  "version": "1.0",
+  "dashboard": {
+    "id": "5029",
+    "name": "M9",
+    "description": "",
+    "category": "Production",
+    "mode": "monitor",
+    "canvas": {
+      "gridSettings": {
+        "cols": 24,
+        "rowHeight": 30,
+        "margin": [
+          8,
+          8
+        ],
+        "padding": [
+          16,
+          16
+        ]
+      },
+      "style": {
+        "backgroundColor": "#fbfbfb",
+        "gridColor": "rgba(128,128,128,0.1)",
+        "themePreset": "system"
+      }
+    },
+    "monitor": {
+      "rows": [
+        {
+          "id": "row-1769601238384",
+          "title": "New Row",
+          "sortOrder": 0,
+          "showTitle": true,
+          "gridPos": {
+            "x": 0,
+            "y": 0,
+            "w": 24,
+            "h": 1,
+            "zIndex": 0
+          }
+        },
+        {
+          "id": "row-1769601525157",
+          "title": "New Row",
+          "sortOrder": 4,
+          "showTitle": true,
+          "gridPos": {
+            "x": 0,
+            "y": 9,
+            "w": 24,
+            "h": 1,
+            "zIndex": 0
+          }
+        },
+        {
+          "id": "row-1769602178357",
+          "title": "New Row",
+          "sortOrder": 18,
+          "showTitle": true,
+          "gridPos": {
+            "x": 0,
+            "y": 18,
+            "w": 24,
+            "h": 1,
+            "zIndex": 0
+          }
+        },
+        {
+          "id": "row-1769602295437",
+          "title": "New Row",
+          "sortOrder": 27,
+          "showTitle": true,
+          "gridPos": {
+            "x": 0,
+            "y": 28,
+            "w": 24,
+            "h": 1,
+            "zIndex": 0
+          }
+        }
+      ],
+      "rowGapPx": 16,
+      "panelGapPx": 12
+    }
+  },
+  "widgets": [
+    {
+      "id": "widget-1769598152156",
+      "type": "chart",
+      "title": "Rainfall",
+      "layout": {
+        "x": 1,
+        "y": 4,
+        "w": 6,
+        "h": 4,
+        "minW": 2,
+        "minH": 2,
+        "zIndex": 1
+      },
+      "templateId": "3",
+      "monitor": {
+        "rowId": "row-1769601525157",
+        "gridPos": {
+          "x": 0,
+          "y": 10,
+          "w": 7,
+          "h": 8,
+          "zIndex": 0
+        },
+        "order": 0,
+        "flex": 1
+      },
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1769602100294",
+      "type": "chart",
+      "title": "Gradient Stacked Area Chart",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3,
+        "minW": 2,
+        "minH": 2,
+        "zIndex": 1
+      },
+      "templateId": "5",
+      "monitor": {
+        "rowId": "row-1769601238384",
+        "gridPos": {
+          "x": 0,
+          "y": 1,
+          "w": 7,
+          "h": 8,
+          "zIndex": 0
+        },
+        "order": 0,
+        "flex": 1
+      },
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1769602114389",
+      "type": "chart",
+      "title": "Bump Chart (Ranking)",
+      "layout": {
+        "x": 7,
+        "y": 1,
+        "w": 6,
+        "h": 4,
+        "minW": 2,
+        "minH": 2,
+        "zIndex": 1
+      },
+      "templateId": "45",
+      "monitor": {
+        "rowId": "row-1769601238384",
+        "gridPos": {
+          "x": 7,
+          "y": 1,
+          "w": 7,
+          "h": 8,
+          "zIndex": 0
+        },
+        "order": 0,
+        "flex": 1
+      },
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1769602136083",
+      "type": "chart",
+      "title": "Area Chart with Time Axis",
+      "layout": {
+        "x": 14,
+        "y": 1,
+        "w": 6,
+        "h": 4,
+        "minW": 2,
+        "minH": 2,
+        "zIndex": 1
+      },
+      "templateId": "7",
+      "monitor": {
+        "rowId": "row-1769601238384",
+        "gridPos": {
+          "x": 14,
+          "y": 1,
+          "w": 9,
+          "h": 8,
+          "zIndex": 0
+        },
+        "order": 0,
+        "flex": 1
+      },
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1769602152527",
+      "type": "chart",
+      "title": "Weather Statistics",
+      "layout": {
+        "x": 8,
+        "y": 10,
+        "w": 6,
+        "h": 4,
+        "minW": 2,
+        "minH": 2,
+        "zIndex": 1
+      },
+      "templateId": "29",
+      "monitor": {
+        "rowId": "row-1769601525157",
+        "gridPos": {
+          "x": 7,
+          "y": 10,
+          "w": 8,
+          "h": 8,
+          "zIndex": 0
+        },
+        "order": 0,
+        "flex": 1
+      },
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1769602163611",
+      "type": "chart",
+      "title": "Chord lineStyle.color",
+      "layout": {
+        "x": 15,
+        "y": 10,
+        "w": 6,
+        "h": 4,
+        "minW": 2,
+        "minH": 2,
+        "zIndex": 1
+      },
+      "templateId": "61",
+      "monitor": {
+        "rowId": "row-1769601525157",
+        "gridPos": {
+          "x": 15,
+          "y": 10,
+          "w": 8,
+          "h": 8,
+          "zIndex": 0
+        },
+        "order": 0,
+        "flex": 1
+      },
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1769602186802",
+      "type": "chart",
+      "title": "Multiple Categories",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3,
+        "minW": 2,
+        "minH": 2,
+        "zIndex": 1
+      },
+      "templateId": "43",
+      "monitor": {
+        "rowId": "row-1769602178357",
+        "gridPos": {
+          "x": 0,
+          "y": 19,
+          "w": 23,
+          "h": 9,
+          "zIndex": 0
+        },
+        "order": 0,
+        "flex": 1
+      },
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1769602224895",
+      "type": "chart",
+      "title": "Label Line Adjust",
+      "layout": {
+        "x": 0,
+        "y": 28,
+        "w": 6,
+        "h": 4,
+        "minW": 2,
+        "minH": 2,
+        "zIndex": 1
+      },
+      "templateId": "199",
+      "monitor": {
+        "rowId": "row-1769602295437",
+        "gridPos": {
+          "x": 0,
+          "y": 29,
+          "w": 9,
+          "h": 14,
+          "zIndex": 0
+        },
+        "order": 0,
+        "flex": 1
+      },
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1769602248294",
+      "type": "chart",
+      "title": "Multiple Radar",
+      "layout": {
+        "x": 9,
+        "y": 28,
+        "w": 6,
+        "h": 4,
+        "minW": 2,
+        "minH": 2,
+        "zIndex": 1
+      },
+      "templateId": "213",
+      "monitor": {
+        "rowId": "row-1769602295437",
+        "gridPos": {
+          "x": 9,
+          "y": 29,
+          "w": 7,
+          "h": 8,
+          "zIndex": 0
+        },
+        "order": 0,
+        "flex": 1
+      },
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1769602256864",
+      "type": "chart",
+      "title": "Proportion of Browsers",
+      "layout": {
+        "x": 9,
+        "y": 36,
+        "w": 6,
+        "h": 4,
+        "minW": 2,
+        "minH": 2,
+        "zIndex": 1
+      },
+      "templateId": "215",
+      "monitor": {
+        "rowId": "row-1769602295437",
+        "gridPos": {
+          "x": 9,
+          "y": 37,
+          "w": 7,
+          "h": 6,
+          "zIndex": 0
+        },
+        "order": 0,
+        "flex": 1
+      },
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1769602279403",
+      "type": "chart",
+      "title": "Calendar Graph",
+      "layout": {
+        "x": 16,
+        "y": 28,
+        "w": 6,
+        "h": 4,
+        "minW": 2,
+        "minH": 2,
+        "zIndex": 1
+      },
+      "templateId": "48",
+      "monitor": {
+        "rowId": "row-1769602295437",
+        "gridPos": {
+          "x": 16,
+          "y": 29,
+          "w": 7,
+          "h": 14,
+          "zIndex": 0
+        },
+        "order": 0,
+        "flex": 1
+      },
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    }
+  ],
+  "templates": [],
+  "metadata": {
+    "createdAt": "2026-01-28T12:12:01.9Z",
+    "savedAt": "2026-01-28T22:53:28.4938199Z",
+    "dbVersion": 1,
+    "isStale": false
+  }
+}

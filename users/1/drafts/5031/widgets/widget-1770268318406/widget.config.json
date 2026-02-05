@@ -1,0 +1,39 @@
+{
+  "id": "widget-1770268318406",
+  "type": "chart",
+  "title": "Stat (Basic)",
+  "layout": {
+    "x": 8,
+    "y": 2,
+    "w": 16,
+    "h": 8,
+    "minW": 2,
+    "minH": 2,
+    "zIndex": 1
+  },
+  "style": {
+    "theme": "light",
+    "borderColor": "#485d7a"
+  },
+  "templateId": "1330",
+  "content": {
+    "displayName": "",
+    "textMode": "value",
+    "graphMode": "none",
+    "colorMode": "background",
+    "transparent": false,
+    "colorScheme": "yellow-red"
+  },
+  "dataSource": {
+    "type": "variable",
+    "config": {
+      "variableName": "slider_value"
+    },
+    "refreshMode": "interval",
+    "refreshIntervalMs": 5000
+  },
+  "configFileName": "stat-options.json",
+  "dataFileName": "stat-data.json",
+  "isCodeDriven": false,
+  "libraryCode": "stat"
+}

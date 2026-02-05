@@ -2,11 +2,11 @@
   "$schema": "./draft-schema.json",
   "version": "1.0",
   "dashboard": {
-    "id": "5016",
-    "name": "M2",
+    "id": "5030",
+    "name": "C1",
     "description": "",
     "category": "Production",
-    "mode": "monitor",
+    "mode": "canvas",
     "canvas": {
       "gridSettings": {
         "cols": 12,
@@ -20,17 +20,12 @@
           12
         ]
       }
-    },
-    "monitor": {
-      "rows": [],
-      "rowGapPx": 16,
-      "panelGapPx": 12
     }
   },
   "widgets": [],
   "templates": [],
   "metadata": {
-    "savedAt": "2026-01-28T10:57:33.2954149Z",
+    "savedAt": "2026-01-28T11:06:24.0249864Z",
     "dbVersion": 1,
     "isStale": false
   }

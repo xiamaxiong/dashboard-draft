@@ -1,0 +1,98 @@
+{
+  "id": "widget-1769602163611",
+  "type": "chart",
+  "title": "Chord lineStyle.color",
+  "layout": {
+    "x": 15,
+    "y": 10,
+    "w": 6,
+    "h": 4,
+    "minW": 2,
+    "minH": 2,
+    "zIndex": 1
+  },
+  "templateId": "61",
+  "dataSource": {
+    "type": "mock",
+    "config": {
+      "dataType": "timeseries",
+      "pointCount": 50
+    },
+    "previewData": {
+      "series": [
+        {
+          "data": [
+            {
+              "name": "A"
+            },
+            {
+              "name": "B"
+            },
+            {
+              "name": "C"
+            },
+            {
+              "name": "D"
+            }
+          ],
+          "index": 0,
+          "type": "chord"
+        },
+        {
+          "data": [
+            {
+              "name": "A"
+            },
+            {
+              "name": "B"
+            },
+            {
+              "name": "C"
+            },
+            {
+              "name": "D"
+            }
+          ],
+          "index": 1,
+          "type": "chord"
+        },
+        {
+          "data": [
+            {
+              "name": "A"
+            },
+            {
+              "name": "B"
+            },
+            {
+              "name": "C"
+            },
+            {
+              "name": "D"
+            }
+          ],
+          "index": 2,
+          "type": "chord"
+        }
+      ]
+    },
+    "refreshMode": "interval",
+    "refreshIntervalMs": 5000
+  },
+  "monitor": {
+    "rowId": "row-1769601525157",
+    "gridPos": {
+      "x": 15,
+      "y": 10,
+      "w": 8,
+      "h": 8,
+      "zIndex": 0
+    },
+    "order": 0,
+    "flex": 1
+  },
+  "configFileName": "echarts-options.json",
+  "dataFileName": "echarts-data.json",
+  "isCodeDriven": false,
+  "libraryCode": "echarts"
+}

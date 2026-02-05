@@ -1,0 +1,29 @@
+{
+  "id": "widget-1765691194154",
+  "type": "Chart",
+  "title": "Axis Pointer Link and Touch",
+  "layout": {
+    "x": 10,
+    "y": 19,
+    "w": 28,
+    "h": 7,
+    "minW": 2,
+    "minH": 1,
+    "zIndex": 0
+  },
+  "templateId": "60",
+  "dataSource": {
+    "type": "api",
+    "config": {
+      "url": "https://localhost:49601/api/v1/dashboard/demo/kline/realtime?symbol=DEMO\u0026interval=1s\u0026limit=60",
+      "method": "GET",
+      "headers": {}
+    },
+    "refreshMode": "interval",
+    "refreshIntervalMs": 5000
+  },
+  "configFileName": "echarts-options.json",
+  "dataFileName": "echarts-data.json",
+  "isCodeDriven": false,
+  "libraryCode": "echarts"
+}

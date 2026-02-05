@@ -1,0 +1,40 @@
+{
+  "id": "widget-1769596391725",
+  "type": "chart",
+  "title": "Label",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "w": 4,
+    "h": 3,
+    "minW": 2,
+    "minH": 2,
+    "zIndex": 1
+  },
+  "templateId": "1320",
+  "dataSource": {
+    "type": "mock",
+    "config": {
+      "dataType": "timeseries",
+      "pointCount": 50
+    },
+    "refreshMode": "interval",
+    "refreshIntervalMs": 5000
+  },
+  "monitor": {
+    "rowId": "row-1769601238384",
+    "gridPos": {
+      "x": 8,
+      "y": 1,
+      "w": 6,
+      "h": 4,
+      "zIndex": 0
+    },
+    "order": 0,
+    "flex": 1
+  },
+  "configFileName": "text-options.json",
+  "dataFileName": "",
+  "isCodeDriven": false,
+  "libraryCode": "text"
+}

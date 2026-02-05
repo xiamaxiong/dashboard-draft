@@ -1,0 +1,29 @@
+{
+  "id": "widget-1770288948591",
+  "type": "chart",
+  "title": "Slider",
+  "layout": {
+    "x": 4,
+    "y": 16,
+    "w": 33,
+    "h": 8,
+    "minW": 2,
+    "minH": 1,
+    "zIndex": 1
+  },
+  "style": {
+    "backgroundColor": "#3d9fdb"
+  },
+  "content": {
+    "controlType": "slider",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "label": "Value",
+    "outputVariable": "slider_value"
+  },
+  "configFileName": "",
+  "dataFileName": "",
+  "isCodeDriven": false,
+  "libraryCode": "control"
+}

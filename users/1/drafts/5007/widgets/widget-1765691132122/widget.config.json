@@ -1,0 +1,32 @@
+{
+  "id": "widget-1765691132122",
+  "type": "Chart",
+  "title": "Aggregate Scatter to Bar",
+  "layout": {
+    "x": 0,
+    "y": 20,
+    "w": 10,
+    "h": 8,
+    "minW": 2,
+    "minH": 1,
+    "zIndex": 0
+  },
+  "templateId": "223",
+  "dataSource": {
+    "type": "mock",
+    "config": {
+      "dataType": "scatter",
+      "pointCount": 50,
+      "valueRange": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "refreshMode": "interval",
+    "refreshIntervalMs": 5000
+  },
+  "configFileName": "echarts-options.json",
+  "dataFileName": "echarts-data.json",
+  "isCodeDriven": false,
+  "libraryCode": "echarts"
+}

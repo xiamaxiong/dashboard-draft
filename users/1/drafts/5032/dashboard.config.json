@@ -2,15 +2,15 @@
   "$schema": "./draft-schema.json",
   "version": "1.0",
   "dashboard": {
-    "id": "5016",
-    "name": "M2",
+    "id": "5032",
+    "name": "M3",
     "description": "",
     "category": "Production",
     "mode": "monitor",
     "canvas": {
       "gridSettings": {
-        "cols": 12,
-        "rowHeight": 100,
+        "cols": 24,
+        "rowHeight": 30,
         "margin": [
           0,
           0
@@ -30,7 +30,7 @@
   "widgets": [],
   "templates": [],
   "metadata": {
-    "savedAt": "2026-01-28T10:57:33.2954149Z",
+    "savedAt": "2026-01-31T15:04:24.8831979Z",
     "dbVersion": 1,
     "isStale": false
   }
