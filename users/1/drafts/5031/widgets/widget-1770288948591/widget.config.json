@@ -1,12 +1,14 @@
 {
   "id": "widget-1770288948591",
-  "type": "control",
+  "type": "chart",
   "title": "Slider",
   "layout": {
     "x": 4,
     "y": 13,
     "w": 41,
     "h": 5,
+    "minW": 2,
+    "minH": 2,
     "zIndex": 1
   },
   "style": {
@@ -17,7 +19,8 @@
     "min": 0,
     "max": 100,
     "step": 1,
-    "label": "Value"
+    "label": "Value",
+    "outputVariable": "slider_value"
   },
   "configFileName": "",
   "dataFileName": "",

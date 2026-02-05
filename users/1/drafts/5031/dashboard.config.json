@@ -37,7 +37,7 @@
         "w": 15,
         "h": 8,
         "minW": 2,
-        "minH": 1,
+        "minH": 2,
         "zIndex": 1
       },
       "templateId": "1330",
@@ -47,13 +47,15 @@
     },
     {
       "id": "widget-1770288948591",
-      "type": "control",
+      "type": "chart",
       "title": "Slider",
       "layout": {
         "x": 4,
         "y": 13,
         "w": 41,
         "h": 5,
+        "minW": 2,
+        "minH": 2,
         "zIndex": 1
       },
       "configFileName": "",
@@ -62,9 +64,29 @@
     }
   ],
   "templates": [],
+  "variables": [
+    {
+      "id": "var-1770293128122",
+      "name": "slider_value",
+      "type": "textbox",
+      "label": "",
+      "description": "",
+      "hide": 0,
+      "skipUrlSync": false,
+      "index": 0,
+      "sort": 0,
+      "refresh": 0,
+      "current": {
+        "value": "",
+        "text": ""
+      },
+      "multi": false,
+      "includeAll": false
+    }
+  ],
   "metadata": {
     "createdAt": "2026-01-31T15:05:37.872Z",
-    "savedAt": "2026-02-05T11:02:19.3228645Z",
+    "savedAt": "2026-02-05T13:04:34.1704323Z",
     "dbVersion": 1,
     "isStale": false
   }
