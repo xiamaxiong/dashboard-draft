@@ -5,10 +5,10 @@
   "layout": {
     "x": 8,
     "y": 2,
-    "w": 15,
+    "w": 34,
     "h": 8,
     "minW": 2,
-    "minH": 2,
+    "minH": 1,
     "zIndex": 1
   },
   "templateId": "1330",
@@ -21,9 +21,9 @@
     "colorScheme": "yellow-red"
   },
   "dataSource": {
-    "type": "expression",
+    "type": "variable",
     "config": {
-      "expression": ""
+      "variableName": "slider_value"
     },
     "refreshMode": "interval",
     "refreshIntervalMs": 5000
