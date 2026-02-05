@@ -1,0 +1,22 @@
+[
+  {
+    "fields": [
+      {
+        "name": "time",
+        "type": "time",
+        "values": [
+          1706400000000
+        ]
+      },
+      {
+        "name": "value",
+        "type": "number",
+        "values": [
+          42
+        ]
+      }
+    ],
+    "length": 1,
+    "name": "Sample"
+  }
+]

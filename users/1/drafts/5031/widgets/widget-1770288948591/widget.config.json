@@ -1,0 +1,26 @@
+{
+  "id": "widget-1770288948591",
+  "type": "control",
+  "title": "Slider",
+  "layout": {
+    "x": 4,
+    "y": 13,
+    "w": 41,
+    "h": 5,
+    "zIndex": 1
+  },
+  "style": {
+    "backgroundColor": "#3d9fdb"
+  },
+  "content": {
+    "controlType": "slider",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "label": "Value"
+  },
+  "configFileName": "",
+  "dataFileName": "",
+  "isCodeDriven": false,
+  "libraryCode": "control"
+}

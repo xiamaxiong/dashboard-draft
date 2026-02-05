@@ -1,17 +1,17 @@
 {
-  "id": "widget-1769596391725",
+  "id": "widget-1769602126184",
   "type": "chart",
-  "title": "Label",
+  "title": "geo svg lines",
   "layout": {
-    "x": 0,
-    "y": 0,
-    "w": 4,
-    "h": 3,
+    "x": 14,
+    "y": 1,
+    "w": 6,
+    "h": 4,
     "minW": 2,
     "minH": 2,
     "zIndex": 1
   },
-  "templateId": "1320",
+  "templateId": "111",
   "dataSource": {
     "type": "mock",
     "config": {
@@ -24,17 +24,17 @@
   "monitor": {
     "rowId": "row-1769601238384",
     "gridPos": {
-      "x": 8,
+      "x": 14,
       "y": 1,
-      "w": 6,
-      "h": 4,
+      "w": 7,
+      "h": 8,
       "zIndex": 0
     },
     "order": 0,
     "flex": 1
   },
-  "configFileName": "text-options.json",
-  "dataFileName": "",
+  "configFileName": "echarts-options.json",
+  "dataFileName": "echarts-data.json",
   "isCodeDriven": false,
-  "libraryCode": "text"
+  "libraryCode": "echarts"
 }

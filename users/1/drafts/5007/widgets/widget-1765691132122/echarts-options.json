@@ -1,0 +1,26 @@
+{
+  "xAxis": {
+    "scale": true
+  },
+  "yAxis": {
+    "scale": true
+  },
+  "series": [
+    {
+      "type": "scatter",
+      "id": "female",
+      "dataGroupId": "female",
+      "universalTransition": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "scatter",
+      "id": "male",
+      "dataGroupId": "male",
+      "universalTransition": {
+        "enabled": true
+      }
+    }
+  ]
+}

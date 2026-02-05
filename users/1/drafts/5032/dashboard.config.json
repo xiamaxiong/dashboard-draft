@@ -1,0 +1,37 @@
+{
+  "$schema": "./draft-schema.json",
+  "version": "1.0",
+  "dashboard": {
+    "id": "5032",
+    "name": "M3",
+    "description": "",
+    "category": "Production",
+    "mode": "monitor",
+    "canvas": {
+      "gridSettings": {
+        "cols": 24,
+        "rowHeight": 30,
+        "margin": [
+          0,
+          0
+        ],
+        "padding": [
+          12,
+          12
+        ]
+      }
+    },
+    "monitor": {
+      "rows": [],
+      "rowGapPx": 16,
+      "panelGapPx": 12
+    }
+  },
+  "widgets": [],
+  "templates": [],
+  "metadata": {
+    "savedAt": "2026-01-31T15:04:24.8831979Z",
+    "dbVersion": 1,
+    "isStale": false
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "widget-1769602152527",
+  "type": "chart",
+  "title": "Weather Statistics",
+  "layout": {
+    "x": 8,
+    "y": 10,
+    "w": 6,
+    "h": 4,
+    "minW": 2,
+    "minH": 2,
+    "zIndex": 1
+  },
+  "templateId": "29",
+  "dataSource": {
+    "type": "mock",
+    "config": {
+      "dataType": "timeseries",
+      "pointCount": 50
+    },
+    "previewData": {
+      "series": [
+        {
+          "data": [
+            165,
+            170,
+            30
+          ],
+          "index": 0,
+          "name": "City Alpha",
+          "type": "bar"
+        },
+        {
+          "data": [
+            150,
+            105,
+            110
+          ],
+          "index": 1,
+          "name": "City Beta",
+          "type": "bar"
+        },
+        {
+          "data": [
+            220,
+            82,
+            63
+          ],
+          "index": 2,
+          "name": "City Gamma",
+          "type": "bar"
+        }
+      ],
+      "yAxis": {
+        "data": [
+          "Sunny",
+          "Cloudy",
+          "Showers"
+        ]
+      }
+    },
+    "refreshMode": "interval",
+    "refreshIntervalMs": 5000
+  },
+  "monitor": {
+    "rowId": "row-1769601525157",
+    "gridPos": {
+      "x": 7,
+      "y": 10,
+      "w": 8,
+      "h": 8,
+      "zIndex": 0
+    },
+    "order": 0,
+    "flex": 1
+  },
+  "configFileName": "echarts-options.json",
+  "dataFileName": "echarts-data.json",
+  "isCodeDriven": false,
+  "libraryCode": "echarts"
+}

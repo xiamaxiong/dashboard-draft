@@ -1,0 +1,12 @@
+{
+  "reducer": "last",
+  "colorMode": "background",
+  "graphMode": "none",
+  "justifyMode": "center",
+  "textMode": "value",
+  "decimals": 2,
+  "colorScheme": "yellow-red",
+  "valueSize": 80,
+  "titleSize": 15,
+  "unit": "percent"
+}

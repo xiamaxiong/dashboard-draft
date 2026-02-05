@@ -1,0 +1,32 @@
+{
+  "$schema": "./draft-schema.json",
+  "version": "1.0",
+  "dashboard": {
+    "id": "5030",
+    "name": "C1",
+    "description": "",
+    "category": "Production",
+    "mode": "canvas",
+    "canvas": {
+      "gridSettings": {
+        "cols": 12,
+        "rowHeight": 100,
+        "margin": [
+          0,
+          0
+        ],
+        "padding": [
+          12,
+          12
+        ]
+      }
+    }
+  },
+  "widgets": [],
+  "templates": [],
+  "metadata": {
+    "savedAt": "2026-01-28T11:06:24.0249864Z",
+    "dbVersion": 1,
+    "isStale": false
+  }
+}
