@@ -4,9 +4,9 @@
   "title": "Slider",
   "layout": {
     "x": 4,
-    "y": 13,
-    "w": 41,
-    "h": 5,
+    "y": 16,
+    "w": 33,
+    "h": 8,
     "minW": 2,
     "minH": 1,
     "zIndex": 1

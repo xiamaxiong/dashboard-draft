@@ -5,11 +5,15 @@
   "layout": {
     "x": 8,
     "y": 2,
-    "w": 34,
+    "w": 16,
     "h": 8,
     "minW": 2,
-    "minH": 1,
+    "minH": 2,
     "zIndex": 1
+  },
+  "style": {
+    "theme": "light",
+    "borderColor": "#485d7a"
   },
   "templateId": "1330",
   "content": {

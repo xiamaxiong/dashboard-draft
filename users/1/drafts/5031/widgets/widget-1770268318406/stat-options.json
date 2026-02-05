@@ -5,7 +5,7 @@
   "justifyMode": "center",
   "textMode": "value",
   "decimals": 2,
-  "colorScheme": "yellow-red",
+  "colorScheme": "viridis",
   "valueSize": 80,
   "titleSize": 15,
   "unit": "percent"
