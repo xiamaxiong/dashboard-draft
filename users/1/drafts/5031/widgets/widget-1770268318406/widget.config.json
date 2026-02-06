@@ -3,10 +3,10 @@
   "type": "chart",
   "title": "Stat (Basic)",
   "layout": {
-    "x": 8,
+    "x": 0,
     "y": 2,
-    "w": 16,
-    "h": 8,
+    "w": 15,
+    "h": 4,
     "minW": 2,
     "minH": 1,
     "zIndex": 1

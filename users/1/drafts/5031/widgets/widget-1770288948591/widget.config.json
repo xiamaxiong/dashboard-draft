@@ -3,10 +3,10 @@
   "type": "chart",
   "title": "Slider",
   "layout": {
-    "x": 4,
-    "y": 16,
-    "w": 33,
-    "h": 8,
+    "x": 0,
+    "y": 7,
+    "w": 12,
+    "h": 1,
     "minW": 2,
     "minH": 1,
     "zIndex": 1

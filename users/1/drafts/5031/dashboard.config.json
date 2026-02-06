@@ -9,8 +9,8 @@
     "mode": "canvas",
     "canvas": {
       "pageSize": {
-        "width": 800,
-        "height": 600
+        "width": 1920,
+        "height": 1080
       },
       "gridSettings": {
         "cols": 48,
@@ -32,10 +32,10 @@
       "type": "chart",
       "title": "Stat (Basic)",
       "layout": {
-        "x": 8,
+        "x": 0,
         "y": 2,
-        "w": 16,
-        "h": 8,
+        "w": 15,
+        "h": 4,
         "minW": 2,
         "minH": 1,
         "zIndex": 1
@@ -50,70 +50,16 @@
       "type": "chart",
       "title": "Slider",
       "layout": {
-        "x": 4,
-        "y": 16,
-        "w": 33,
-        "h": 8,
+        "x": 0,
+        "y": 7,
+        "w": 12,
+        "h": 1,
         "minW": 2,
         "minH": 1,
         "zIndex": 1
       },
       "configFileName": "",
       "dataFileName": "",
-      "isCodeDriven": false
-    },
-    {
-      "id": "widget-1770341720076",
-      "type": "chart",
-      "title": "Large Scatter",
-      "layout": {
-        "x": 0,
-        "y": 0,
-        "w": 4,
-        "h": 3,
-        "minW": 2,
-        "minH": 1,
-        "zIndex": 1
-      },
-      "templateId": "232",
-      "configFileName": "echarts-options.json",
-      "dataFileName": "echarts-data.json",
-      "isCodeDriven": false
-    },
-    {
-      "id": "widget-1770341727284",
-      "type": "chart",
-      "title": "Large Scatter",
-      "layout": {
-        "x": 0,
-        "y": 0,
-        "w": 4,
-        "h": 3,
-        "minW": 2,
-        "minH": 1,
-        "zIndex": 1
-      },
-      "templateId": "232",
-      "configFileName": "echarts-options.json",
-      "dataFileName": "echarts-data.json",
-      "isCodeDriven": false
-    },
-    {
-      "id": "widget-1770341760113",
-      "type": "chart",
-      "title": "Large Scatter",
-      "layout": {
-        "x": 26,
-        "y": 24,
-        "w": 6,
-        "h": 4,
-        "minW": 1,
-        "minH": 1,
-        "zIndex": 1
-      },
-      "templateId": "232",
-      "configFileName": "echarts-options.json",
-      "dataFileName": "echarts-data.json",
       "isCodeDriven": false
     }
   ],
@@ -132,8 +78,8 @@
       "refresh": 0,
       "options": [],
       "current": {
-        "value": 0,
-        "text": "0",
+        "value": 60,
+        "text": "60",
         "isAll": false
       },
       "multi": false,
@@ -142,7 +88,7 @@
   ],
   "metadata": {
     "createdAt": "2026-01-31T15:05:37.872Z",
-    "savedAt": "2026-02-06T01:56:01.0250383Z",
+    "savedAt": "2026-02-06T05:17:20.5862032Z",
     "dbVersion": 1,
     "isStale": false
   }
