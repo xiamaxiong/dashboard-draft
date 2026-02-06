@@ -37,7 +37,7 @@
         "w": 16,
         "h": 8,
         "minW": 2,
-        "minH": 2,
+        "minH": 1,
         "zIndex": 1
       },
       "templateId": "1330",
@@ -61,6 +61,60 @@
       "configFileName": "",
       "dataFileName": "",
       "isCodeDriven": false
+    },
+    {
+      "id": "widget-1770341720076",
+      "type": "chart",
+      "title": "Large Scatter",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3,
+        "minW": 2,
+        "minH": 1,
+        "zIndex": 1
+      },
+      "templateId": "232",
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1770341727284",
+      "type": "chart",
+      "title": "Large Scatter",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3,
+        "minW": 2,
+        "minH": 1,
+        "zIndex": 1
+      },
+      "templateId": "232",
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
+    },
+    {
+      "id": "widget-1770341760113",
+      "type": "chart",
+      "title": "Large Scatter",
+      "layout": {
+        "x": 26,
+        "y": 24,
+        "w": 6,
+        "h": 4,
+        "minW": 1,
+        "minH": 1,
+        "zIndex": 1
+      },
+      "templateId": "232",
+      "configFileName": "echarts-options.json",
+      "dataFileName": "echarts-data.json",
+      "isCodeDriven": false
     }
   ],
   "templates": [],
@@ -78,8 +132,8 @@
       "refresh": 0,
       "options": [],
       "current": {
-        "value": 57,
-        "text": "57",
+        "value": 0,
+        "text": "0",
         "isAll": false
       },
       "multi": false,
@@ -88,7 +142,7 @@
   ],
   "metadata": {
     "createdAt": "2026-01-31T15:05:37.872Z",
-    "savedAt": "2026-02-05T23:25:25.8045953Z",
+    "savedAt": "2026-02-06T01:56:01.0250383Z",
     "dbVersion": 1,
     "isStale": false
   }

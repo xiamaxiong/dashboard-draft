@@ -8,7 +8,7 @@
     "w": 16,
     "h": 8,
     "minW": 2,
-    "minH": 2,
+    "minH": 1,
     "zIndex": 1
   },
   "style": {
